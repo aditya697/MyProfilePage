@@ -1,0 +1,59 @@
+ul {
+    list-style: none;
+}
+h3{
+    color: darkblue;
+    font-size: 30px;
+}
+p{
+    font: caption;
+    font-size: 20px
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+section {
+    max-width: 900px;
+    margin: 10px auto;
+    position: relative;
+}
+.container-wrap {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.header .container-wrap {
+    display: flex;
+    align-items: center;
+    padding: 50px 0 0 0;
+}
+.header .nav-links {
+    display: flex;
+    justify-content: space-between;
+    width: calc(50% - 50px);
+    padding: 0 10px;
+}
+.header .nav-links.right a:last-child {
+    margin-right: 0;
+}
+.header .nav-links li a {
+    color: #007fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin: 0 50px;
+}
+.profile {
+    width: 100px;
+    height: 100%;
+    border-radius: 100px;
+}
+.hero {
+    text-align: center;
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+}
